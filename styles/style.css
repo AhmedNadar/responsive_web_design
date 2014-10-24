@@ -9,19 +9,20 @@ body{
 }
 .container {
 	background: #edede1;
-	width: 55em; /* original size was 690px with fluid it gets converted to 90% */
+	width: 90%; /* original size was 690px with fluid it gets converted to 90% */
 	margin: 0 auto;
+	display: table; /* this is a hack to mimic a hybrid layout of Fluid and Static elements */
 }
 
 section{
-	width: 67.7083333333%; /* to get fluied layout <= 650px / 960px %  */
-	float: left;
+	width: 65%; /* to get fluied layout <= 650px / 960px %  */
+	display: table-cell; /* since the main/parent container display as a table, then children should be a cell */
 }
 
 aside{
 	background: #d1d1c1;
-	width: 31.25%; /* to get fluied layout <= 300px / 960px %  */
-	float: right;
+	width: 300px; /* to get fluied layout <= 300px / 960px %  */
+	display: table-cell; /* Children of main container */
 }
 footer{
 	clear: both;
