@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	--webkit-font-smoothing: antialiased;
+}
+
+body{
+	font: 100%/1.5em Helvetica, Arial, sans-serif; /* 100% is mostly 16px. em flexible unit measurement which is relative to fnt size for which element we are dealing with such as body => 1.5 * 16px = 24px  which at the end i get font size=16px and line height=24px  */
+}
+.container {
+	background: #edede1;
+	width: 55em; /* original size was 690px with fluid it gets converted to 90% */
+	margin: 0 auto;
+}
+
+section{
+	width: 67.7083333333%; /* to get fluied layout <= 650px / 960px %  */
+	float: left;
+}
+
+aside{
+	background: #d1d1c1;
+	width: 31.25%; /* to get fluied layout <= 300px / 960px %  */
+	float: right;
+}
+footer{
+	clear: both;
+	background: #dedede;
+}
