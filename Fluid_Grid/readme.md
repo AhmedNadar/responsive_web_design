@@ -2,7 +2,8 @@
 
 #### Creating Fluid Web sit by using:
 
-* Fluid layouts.
+**Fluid layouts**
+
 	- Creating 12 columns grid layout based on 960 Grid System
 	- Fix display the whole element with its margin using `box-sizing` property. 
 		A good hack form our old firend IE6 (RIP) http://caniuse.com/#search=box-sizing
