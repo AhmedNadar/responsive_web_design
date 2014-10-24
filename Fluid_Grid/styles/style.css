@@ -20,6 +20,7 @@ background: rgba(60, 151, 200, 0.57);
 .row{
 	float: left;
 	clear: both;
+	width: 100%;
 }
 .container .columns {
 	float: left;
@@ -58,4 +59,8 @@ background: rgba(60, 151, 200, 0.57);
 	width: 0;
 	height: 0;
 	clear: both;
+}
+img {
+	max-width: 100%;
+	height: auto; /* override the inline height property */
 }
