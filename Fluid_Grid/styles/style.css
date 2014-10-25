@@ -64,3 +64,24 @@ img {
 	max-width: 100%;
 	height: auto; /* override the inline height property */
 }
+
+h2{
+	font-size: 30px;
+	color: green;
+}
+p {
+	font-size: 18px;
+	color: #000000; 
+}
+
+/* using media quiry for devices of with 320px */
+@media screen and (max-width: 640px){
+	h2{
+		font-size: 20px;
+		color: #336699;
+	}
+	p{
+		font-size: 14px;
+		color: #ffffff;
+	}
+}
