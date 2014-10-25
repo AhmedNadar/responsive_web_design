@@ -20,3 +20,5 @@
 	
 	- Using `@media screen and (max-width: 640px){ ...css properties...}` 
 		is a media query that targets devices with maximum width =< 640px with specific styles.
+	- Using the only keyword `@media only screen ...`	tells IE 8 and below to ignore
+		any decleration within @media query.
