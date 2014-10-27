@@ -1,0 +1,129 @@
+@import "grid";
+
+
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  -webkit-font-smoothing: antialiased; 
+}
+
+html {
+  font-size: 100%/1.5em Arial, sans-serif;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 10em; 
+}
+body { 
+  font-size: 0.875em; /* 14 / 16 */ 
+  color: #313131;
+  line-height: 1.5em; 
+}
+img { 
+  max-width: 100%; 
+  height: auto; 
+}
+.row { 
+  float: left; 
+  clear: both; 
+  width: 100%; 
+}
+
+/* logo */
+h1.logo{
+  float: left;
+}
+h1.logo a{
+  width: 200px;
+  height: 71px;
+  display: block;
+  background: url(../images/tea-logo.png) no-repeat 0 0;
+  border:0; 
+  font: 0/0 a; 
+  text-shadow: none; 
+  color: transparent; 
+  background-color: transparent;
+}
+
+/* navigation */
+a.nav-link {
+  float: right;
+  top: 0;
+  right: 0;
+  background: rgb(163, 44, 23);
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav[role="primary"] ul {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+nav[role="primary"] ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  background: #444444;
+  display: block;
+  padding: 0.75em;
+  border-bottom: 1px solid #999999;
+  color: #f7f7f7; 
+}
+
+nav[role="primary"] ul li a:hover {
+  background: tomato;
+}
+
+nav[role="primary"] ul li:last-child a {
+  border: none;
+}
+
+.featured-section .four{
+  margin: 1em 0;
+}
+
+/* media query */
+@media only screen and (min-width: 450px) { /* using only tells IE8 and below to ignore anything with @mediaquery */
+  body { 
+    font-size: 1em;
+    line-height: 1.5em; /* 16 / 16 */ 
+  }
+  
+  /* navigation */
+  a.nav-link{
+    display: none;
+  }
+  nav[role="primary"] ul {
+    position: relative;
+  }
+  nav[role="primary"] ul li a {
+    float: left;  
+    background: none;
+    border: none;
+    color: #336699;
+  }
+}/* end media query */
+
+@media only screen and (min-width: 720px) { 
+  body { 
+    font-size: 0.9375em;
+    line-height: 1.5em; /* 16 / 16 */ 
+  }
+  .container .featured-section .four {
+    width: 25%;
+  }
+  .container .featured-section .four:nth-child(3) {
+    clear: none; 
+  }
+  .featured-section .four{
+    margin: 1em 0;
+  }
+  .container .featured-section h3 {
+    color: red;
+  }
+}
