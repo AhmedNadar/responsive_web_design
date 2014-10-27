@@ -37,7 +37,6 @@
 }
 .clearfix, .container { zoom: 1; }
 
-
 /* media query */
 @media only screen and (min-width: 450px) { 
 /* containers */
@@ -61,24 +60,7 @@
   .container .columns.fourteen { width: 87.5%;  }
   .container .columns.fifteen  { width: 93.75%; }
   .container .columns.sixteen  { width: 100%;   }
-
-  .columns.banner{
-    padding-bottom: 30%;
-    background: url("../images/1000x1000_tea_bag.jpg") no-repeat center center;
-    background-size: cover;
-  }
-
-  .container .featured-section .four {
-    width: 50%;
-  }
-  .container .featured-section .four:nth-child(3) {
-    clear: both; 
-  }
-  .container .featured-section h3 {
-    color: green;
-  }
 }
-
 
 /* Less than IE9 */
 .lt-ie9 .container {max-width: 650;}
