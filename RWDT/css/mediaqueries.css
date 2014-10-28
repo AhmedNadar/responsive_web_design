@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		float: right;
+		color: #f9f9f9;
+		display: block;
+		padding: 1.5em 2em;
+		cursor: pointer;
+	}
+	.nav-list	{
+		width: 100%;
+		overflow: hidden;
+		float: left;
+		height: 0;
+	}
+	.nav-open{
+		height: auto;
+	}
+	.nav-list li{
+		width: 100%;
+	}
+}
