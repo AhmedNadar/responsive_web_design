@@ -5,12 +5,21 @@ a{
 	text-decoration: none;
 }
 
-/* width settings */
-.nav-hold{
-	width: 95%;
-	max-width: 1000px;
-	margin: 0 auto;
+/* footer */
+.footer{
+	height: 200px;
+	display: block;
 }
+
+/* width settings */
+.nav-hold,
+.image-grid,
+.container, .form-container {
+	width:95%;
+	max-width:1000px;
+	margin:0 auto;
+}
+
 /* navigation */
 .nav-bar {
 	width: 100%;
@@ -38,4 +47,80 @@ a{
 }
 .nav-menu{
 	display: none;
+}
+
+/* container */
+.container{
+	padding: 1.8em 1em 1em 1em; 
+}
+.container h1, .container h2, .form-container h2 {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+.container h2{
+	margin-top: 0.75em;
+}
+/* columns property would not work with IE. Instead we use display as table*/
+.container p{
+	line-height: 1.35em;
+	-webkit-columns: 2; 
+	-moz-columns: 2;
+	-ms-columns: 2;
+	-o-columns: 2;
+	columns: 2;
+}
+
+/* Image Grid */
+.image-grid, .form-container{
+	overflow: hidden;
+	padding: 0.35em;
+}
+.image-grid-square{
+	width: 20%;
+	float: left;
+	padding: 1.7em;
+	overflow: hidden;
+}
+.image-grid-square img{
+	float: left;
+	width: 100%;
+}
+/* form section */
+.form-section{
+	float: left;
+	width: 25%;
+	padding: 0.6em;
+}
+.form-section label{
+	display: block;
+	margin-bottom: 0.5em;
+}
+.message-section, .submit-section{
+	width: 100%;
+}
+.form-section input,  .form-section textarea{
+	width: 100%;
+	padding: 0.3em 0.5em;
+	line-height: 1.3em;
+	font-size: 1.1em;
+}
+
+.form-section textarea{
+	resize: none;
+	padding: 0.3em;
+	height: 180px;
+}
+
+.form-section input.submit-button{
+	float: none;
+	outline: none;
+	display: block;
+	border: none;
+	background: #111111;
+	color: #f9f9f9;
+	padding: 1em;
+	cursor: pointer;
+	margin: 0 auto;
+	max-width: 500px;
 }
