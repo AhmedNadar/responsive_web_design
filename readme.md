@@ -12,6 +12,8 @@ The following techniques are the keye behind building a responsive web design.
 ### Resources and Tools
  Resources 					  		                                                     | Details
 :------------------------------------------------------------------------- | ---------------------------------------|
+[RESPONSIVE WEB DESIGN](http://responsivedesign.is/) | The **MUST** to go when it comes to Responsive Web Design.
+[CSS media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) | CSS Media Query Guide by Mozilla
 [Style Tiles](http://styletil.es/) | Style Tiles are a design deliverable consisting of fonts, colors and interface elements that communicate the essence of a visual brand for the web.
 [Emmet](http://emmet.io/) | The essential toolkit for web-developers. **_it's a life saver_**
 [Implementing Responsive Design](http://www.implementingresponsivedesign.com/)|Good book about Building sites for an anywhere, everywhere web by **Tim Kadlec**
@@ -26,3 +28,4 @@ The following techniques are the keye behind building a responsive web design.
 [Screensiz](http://screensiz.es/phone) | It helps you quickly find the screen specifications of the most popular devices and monitors currently on the market.
 [Modernizr](http://modernizr.com/) |Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 [Responsive Grid with Media Query - Tutorial] (http://webdesign.tutsplus.com/articles/a-basic-responsive-grid-plus-handy-css3-media-query-reporter--webdesign-5121) | A Basic Responsive Grid (Plus Handy CSS3 Media Query Reporter)
+[Create a responsive design with Bootstrap](http://www.onextrapixel.com/2012/11/12/how-to-use-twitter-bootstrap-to-create-a-responsive-website-design/) | How to use Twitter Bootstrap to Create a Responsive Website Design
