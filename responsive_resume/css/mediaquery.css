@@ -1,0 +1,55 @@
+/* phone 660px */
+@media screen and (min-width: 660px) {
+  #gallery li {
+    width: 28.33333%;
+  }
+  #gallery li:nth-child(4n) {
+    clear: both;
+  }
+  #logo h2 {
+    font-size: 0.825em;
+    margin-bottom: 1em;
+  }
+  .profile-photo {
+    float: left;
+    margin: 0 5em 2em 0;
+  }
+  #logo h1 {
+    font-size: 2.3em;
+  }
+  #logo {
+    float: left;
+    margin: 0 0 1em 2em;
+  }
+  nav {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 1.125em;
+    width: 45%;
+    float: right;
+    background: none;
+  }
+  header{
+    border-bottom:5px solid #599a68;
+  }
+}
+
+/* phone 480px */
+@media screen and (min-width: 480px) {
+  .primary{
+    float:left;
+    width:50%;
+  }
+
+  .secondary{
+    float:right;
+    width:40%;
+  }
+}
+
+/* phone 320px */
+@media screen and (max-width: 320px) {
+  #gallery li {
+    width: 100%;
+  }
+}
